@@ -17,3 +17,32 @@ git config --global
 ## SSH - Como configurar a maquina para GitHub
 
 ## Como criar um repositorio 
+
+
+O Git ferramenta de versionamento local, que salva o estado de cada arquivo na hora do versionamento e caso o arquivo não sofra a alteração ele cria um link simbólico para o arquivo não editado.
+Você vai abrir o Terminal de Comando, Shell ou PowerShell e digite git –version
+Depois configure também seu git local, com os seguintes comandos.
+>git config –global user.name “Seu Nome” 
+>git config –global user.email “seuEmail@gmail.com”
+Criem uma conta no site oficial do github.
+https://github.com/
+GitHub - SSH
+SSH – GitBash
+Verificar se existe chave ssh.
+Is -al ~/.ssh
+Adicionar uma nova chave. (ID)
+Ssh-keygen -t ed25519 -C your_email@example.com
+Inicializar agente-ssh.
+Eval “$(ssh-agent -s)”
+Adicionar a chave ssh ao agente.
+Ssh-add ~/.ssh/id_ed25519
+SSH – GitBash
+Copiar chave ssh.
+Clip <~/.ssh/id_ed25519.pub
+Adicionar chave no github
+Github -> Settings -> SSH and GPG Keys -> new SSH key -> Colar
+*Coloque um título que identifique a chave*
+Ex: SENAC-SALA-106-PCXPTO
+Testar conexão 
+ssh -T git@github.com depois escreve “yes”.
+PRONTO SEU GIT ESTÁ CONFIGURADO!
