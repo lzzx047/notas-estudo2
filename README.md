@@ -46,3 +46,22 @@ Ex: SENAC-SALA-106-PCXPTO
 Testar conexão 
 ssh -T git@github.com depois escreve “yes”.
 PRONTO SEU GIT ESTÁ CONFIGURADO!
+Depois disso pra criar um repositório vai no git hub clica na foto de perfil /repositories/new = coloca o nome do repositório /depois de coloca e omfigura para publico/readme/depois de tudo criar repositório
+Se não colocar readme vai dar merdaaa
+Para ver os repositório só ir na foto de perfil ou se vira  /// 
+
+COISAS QUE O RENAN EXPLICOU
+ 
+PARA FAZER UM REPOSITIRIO
+-FAÇA UM REPOSITORIO NOVO NO GIT HUB
+-VAI NA PASTA DO QUE VOCE CRIOU E VAI LA EM CODIGO E COPIA O SSH
+-DEPOIS DISSO VAI LA NO GIT BASH E DIGITA
+- $ CD DOCUMENTS/ E CLICA ENTER
+-DEPOIS VAI ENTRA ~/DOCUMENTS/= $ GIT CLONE
+-DEPOIS DISSO VAI PARA O VS CODE
+-VAI LA EM CIMA NO CANTO DIRETO LA EM CIMA
+-CLICA EM FILE / OPEN FOLDER
+-DEPOIS VAI NA PASTA QUE VOÇÊ CRIOU NO VS CODE
+-E PRONTO 
+ 
+
